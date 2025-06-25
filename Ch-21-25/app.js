@@ -82,5 +82,70 @@
 //   var result = str.replace(".", "");  
 //   console.log("Result: " + result);
 
-// Question :13
-// Answer: 13
+// Question :14
+// Answer: 14
+
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// var userInput = prompt("Welcome to ABC Bakery. What do you want to order?");
+// var searchItem = userInput.toLowerCase();
+
+// var found = false;
+
+// for (var i = 0; i < A.length; i++) {
+//     if (A[i].toLowerCase() === searchItem) {
+//         found = true;
+//         alert(userInput + " is available at index " + i + " in our bakery.");
+//         break;
+//     }
+// }
+
+// if (!found) {
+//     alert("We are sorry. " + userInput + " is not available in our bakery.");
+// }
+
+
+// Question :16
+
+// Answer: 16
+
+//    var university = "University of Karachi";
+//     var arr = university.split(""); 
+
+  
+//     for (var i = 0; i < arr.length; i++) {
+//         document.write(arr[i] + "<br>");
+//     }
+
+// Question :17
+// Answer: 17
+
+// var inp = prompt("Enter a word: ");
+// var lastChar = inp.charAt(inp.length - 1);
+// console.log("User input: " + inp);
+// console.log("Last character of input: " + lastChar);
+
+// Question :18
+
+// Answer: 18
+
+
+//  var sentence = "The quick brown fox jumps he over the lazy dog";
+
+
+//   var lowerSentence = sentence.toLowerCase();
+
+  
+//   var words = lowerSentence.split(" ");
+//   console.log(words);
+
+//   var count = 0;
+
+//   // Count occurrences of "the"
+//   for (var i = 0; i < words.length; i++) {
+//     if (words[i] === "the") {
+//       count++;
+//     }
+//   }
+
+//   document.write("The word 'the' appears " + count + " times.");
